@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+/* styling of the main */
+header{
+     height: max-content;
+     /* Blur and brightness for glass effect */
+      background-color: gray;
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 5px;
+
+}
+
+.userProfile{
+     align-items: center;
+     justify-items: center;
+}
+.userSettings{
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+
+
+main {
+    width: 100%;
+    display: block;
+    gap: 1000px;
+    /* border: medium solid purple; */
+    margin-top: 100px;
+}
+
+body main .userBalance{
+    margin-inline: auto;
+    max-width: max-content;
+    /* border: medium solid red; */
+    color: white;
+    margin-bottom: 50px;
+
+    align-items: center;
+    justify-items: center;
+
+}
+#userBalanceText{
+    padding: 8px 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#userClickAble{
+    
+    margin-inline: auto;
+    align-items: center;
+    /* border: medium solid pink; */
+}
+#userClickAble img{
+    display: block;
+    margin-inline: auto;
+}
+
+
+
+/* styling of the footer */
+footer{
+    width:100%;
+    backdrop-filter: blur(10px) brightness(1.2); 
+    /* Blur and brightness for glass effect */
+    padding: 5px;
+    /* border: medium solid red; */
+
+    bottom: 0;
+    position: fixed;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li{
+    list-style-type: none;
+    border: medium solid blue;
+    padding: 3px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer ul li a:visited{
+    color: antiquewhite;
+}
